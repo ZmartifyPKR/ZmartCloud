@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: ZmartCloud
+  buildpack: liberty-for-java
+  path: ./target/ZmartCloud.zip
+  memory: 512M
+  random-route: true
